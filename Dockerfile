@@ -1,5 +1,5 @@
 # escape=`
-FROM microsoft/dotnet-framework:6.0-sdk-windowsservercore-ltsc2016
+FROM mcr.microsoft.com/dotnet-framework:6.0-sdk-windowsservercore-ltsc2016
 
 # Set up environment to collect install errors.
 COPY Install.cmd C:\TEMP\
